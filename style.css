@@ -1,0 +1,50 @@
+.root {
+    font-size: 18px;
+}
+
+
+.crib {
+    transform: scale(1) translateY(0);
+    transform-origin: top center;
+}
+
+.crib span {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: calc(1rem + 1.5vw);
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+
+
+@media (max-width: 800px) {
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    .crib {
+        height: 50.625vw;
+        transform: scale(1.23) translateY(-25%);
+        overflow-y: hidden;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+}
+
+@media (min-width: 601px) {
+    .crib {
+        height: 44.625vw;
+    }
+}
