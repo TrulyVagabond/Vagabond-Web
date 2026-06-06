@@ -1,11 +1,36 @@
+@font-face {                  
+font-family: 'Canarina';
+src: url(https://humantooth.neocities.org/fonts/Canarina.woff2) format('woff2');
+font-weight: normal;
+font-style: normal;
+} 
+
+* {
+    image-rendering: pixelated;
+    box-sizing: border-box;
+}
+
 .root {
     font-size: 18px;
 }
 
+body {
+    font-family: 'Canarina', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p  {
+    font-family: 'Canarina', sans-serif;
+    color: rgb(255, 255, 255);  
+    filter: drop-shadow(1px 1px 0 black)
+            drop-shadow(-1px 1px 0 black)
+            drop-shadow(1px -1px 0 black)
+            drop-shadow(-1px -1px 0 black);
+}
 
 .crib {
-    transform: scale(1) translateY(0);
+    transform: scale(1) translateY(9%);
     transform-origin: top center;
+    position: relative;
 }
 
 .crib span {
@@ -14,12 +39,35 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: calc(1rem + 1.5vw);
-    color: white;
-    text-shadow: 0 0 5px black;
+    font-size: calc(1rem + 1vw);
+    font-family: 'Canarina', sans-serif;
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(1px 1px 0 black)
+            drop-shadow(-1px 1px 0 black)
+            drop-shadow(1px -1px 0 black)
+            drop-shadow(-1px -1px 0 black);
+    z-index: 99;
 }
 
+.turn {
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+    position: absolute;
+}
 
+.turn:hover, .turn:focus {
+    color: transparent;
+    background: transparent;
+}
+
+.turn:hover img, .turn:focus-visible img {
+    transform: rotate(5deg);
+}
+
+.turn:hover span, .turn:focus-visible span, a:focus span {
+    opacity: 1;
+}
 
 @media (max-width: 800px) {
     html, body {
