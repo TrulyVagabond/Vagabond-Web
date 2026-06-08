@@ -29,35 +29,38 @@ body {
 h1 {
     font-size: 2.75rem;
     line-height: 1;
+    color: white;
 }
 
 h2 {
     font-size: 2.3rem;
     line-height: 1;
     text-transform: uppercase;
+    color: rgb(100, 236, 147);
 }
 
 h3{
     font-size: 1.25rem;
     line-height: 1;
+    color: #c7fec9;
 }
 
 p {
     font-size: 1.8rem;
     line-height: 1;
+    color: #c7fec9;
 }
 
-.ptextabout {
-    text-indent: 19ch;
-    position: absolute;
-    top: 4vw;
-    text-align: justify;
-    overflow-wrap: anywhere;
-    padding-right: 15px;
+a[href^='http'] {
+    text-decoration-style: solid;
+}
+
+a:visited, a {
+    color: #c7fec9;
 }
 
 .crib {
-    transform: scale(1) translateY(9%);
+    transform: translateY(9%);
     transform-origin: top center;
     position: relative;
 }
@@ -96,6 +99,86 @@ p {
 
 .turn:hover span, .turn:focus-visible span, a:focus span {
     opacity: 1;
+}
+
+/*About Me Page*/
+
+.AboutMeBody {
+    background: url(/assets/Crib/bg3.png);
+    color: white;
+    padding-bottom: 50px;
+}
+
+.AboutMeHeader .main-heading {
+    text-align: center;
+    padding: 26px;
+    padding-bottom: 3px;
+}
+
+.main-infobox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.infobox {
+    background-image: url(/assets/Crib/bg1.png); width: 80vw; 
+    max-width: 900px;
+    border: 5px dashed white; 
+    padding: 30px;
+    padding-top: 16px;
+}
+
+.infobox .Me {
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.infobox h2 {
+    margin-bottom: 15px;
+}
+
+.infobox2 {
+    background-image: url(/assets/Crib/bg1.png); width: 80vw; 
+    max-width: 900px;
+    border: 5px dashed white; 
+    padding: 30px;
+    padding-top: 16px;
+}
+
+.infobox2 h2 {
+    padding: 15px;
+    padding-bottom: 20px;
+}
+
+.infoboxlinks a:hover a:focus {
+    color: inherit;
+}
+
+.infoboxlinks {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.infoboxlinks a {
+    padding: 15px;
+}
+
+.infoboxlinks h2, p {
+    text-align: center;
+}
+
+a.border {
+    border: 5px dashed white;
+    padding: 15px 15px;
+}
+
+a.border:hover {
+    background: #c7fec959;
 }
 
 @media (max-width: 800px) {
