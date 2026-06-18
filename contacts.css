@@ -1,0 +1,190 @@
+@font-face {                  
+font-family: 'CHNOPixel';
+src: url(assets/Fonts/CHNOPixelCodePro-Regular.woff) format('woff');
+font-weight: normal;
+font-style: normal;
+}  
+
+@font-face {                  
+font-family: 'Canarina';
+src: url(assets/Fonts/Canarina.woff2) format('woff2');
+font-weight: normal;
+font-style: normal;
+}
+
+.root {
+    font-size: 18px;
+}
+
+* {
+    image-rendering: pixelated;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scrollbar-color: #c7fec9;
+}
+
+.ContactsBody {
+    font-family: 'CHNOPixel', sans-serif;
+    color: whitesmoke;
+}
+
+h1 {
+    font-size: 2.75rem;
+    line-height: 1;
+    color: white;
+}
+
+h2 {
+    font-size: 2.3rem;
+    line-height: 1;
+    text-transform: uppercase;
+    color: white;
+}
+
+h3{
+    font-size: 1.25rem;
+    line-height: 1;
+    color: white;
+}
+
+p {
+    font-family: 'Canarina', sans-serif;
+    font-size: 2rem;
+    line-height: 1;
+    color: white;
+}
+
+.Email {
+    font-family: 'CHNOPixel', sans-serif;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/Crib/bg3.png);
+    width: max-content;
+    border: 10px solid transparent;
+    padding: 8px 10px 15px;
+    border-image: url(assets/Crib/borderlily.png) 26 round;
+    margin: 5px auto;
+}
+
+a[href^='http'] {
+    text-decoration-style: solid;
+}
+
+a:visited, a {
+    color: #c7fec9;
+}
+
+.ContactsBody {
+    background: url(assets/Crib/bg3.png);
+    color: white;
+    padding-bottom: 50px;
+}
+
+.ContactsHeader .main-heading {
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 3px;
+}
+
+.main-infobox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.infobox {
+    background-image: url(assets/Crib/Grass.JPG); width: 80vw; 
+    max-width: 900px;
+    border: 23px solid transparent;
+    padding: 10px;
+    border-image: url(assets/Crib/borderlily.png) 23 round;
+    margin: 5px; 
+    padding: 30px;
+    padding-top: 16px;
+    box-sizing: border-box;
+}
+
+.infobox h2 {
+    margin-bottom: 15px;
+}
+
+.rarelyp {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.infobox2 {
+    background-image: url(assets/Crib/Grass.JPG); width: 80vw; 
+    max-width: 900px;
+    border: 23px solid transparent;
+    padding: 10px;
+    border-image: url(assets/Crib/borderlily.png) 23 round;
+    margin: 5px; 
+    padding: 30px;
+    padding-top: 16px;
+}
+
+.infobox2 h2 {
+    margin-bottom: 15px;
+}
+
+.gitp {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.Github {
+    font-family: 'CHNOPixel', sans-serif;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/Crib/bg3.png);
+    width: max-content;
+    max-width: 90%;
+    border: 10px solid transparent;
+    padding: 8px 10px 15px;
+    border-image: url(assets/Crib/borderlily.png) 26 round;
+    margin: 5px auto;
+}
+
+.infobox3 {
+    background-image: url(assets/Crib/Grass.JPG); width: 80vw; 
+    max-width: 900px;
+    border: 23px solid transparent;
+    padding: 10px;
+    border-image: url(assets/Crib/borderlily.png) 23 round;
+    margin: 5px; 
+    padding: 30px;
+    padding-top: 16px;
+}
+
+.infobox3 h2 {
+    margin-bottom: 15px;
+}
+
+.discord {
+    font-family: 'CHNOPixel', sans-serif;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(assets/Crib/bg3.png);
+    width: max-content;
+    border: 10px solid transparent;
+    padding: 8px 10px 15px;
+    border-image: url(assets/Crib/borderlily.png) 26 round;
+    margin: 5px auto;
+}
+
+.activep {
+    text-align: center;
+    padding-bottom: 10px;
+}
