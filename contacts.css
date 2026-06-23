@@ -65,7 +65,7 @@ p {
     width: max-content;
     border: 10px solid transparent;
     padding: 8px 10px 15px;
-    border-image: url(assets/Crib/borderlily.png) 26 round;
+    border-image: url(assets/Crib/floral1v2.png) 26 round;
     margin: 5px auto;
 }
 
@@ -151,8 +151,9 @@ a:visited, a {
     max-width: 90%;
     border: 10px solid transparent;
     padding: 8px 10px 15px;
-    border-image: url(assets/Crib/borderlily.png) 26 round;
+    border-image: url(assets/Crib/floral1v2.png) 26 round;
     margin: 5px auto;
+    cursor: pointer;
 }
 
 .infobox3 {
@@ -180,7 +181,7 @@ a:visited, a {
     width: max-content;
     border: 10px solid transparent;
     padding: 8px 10px 15px;
-    border-image: url(assets/Crib/borderlily.png) 26 round;
+    border-image: url(assets/Crib/floral1v2.png) 26 round;
     margin: 5px auto;
 }
 

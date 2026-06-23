@@ -1,0 +1,101 @@
+@font-face {                  
+font-family: 'CHNOPixel';
+src: url(assets/Fonts/CHNOPixelCodePro-Regular.woff) format('woff');
+font-weight: normal;
+font-style: normal;
+}  
+
+@font-face {                  
+font-family: 'Canarina';
+src: url(assets/Fonts/Canarina.woff2) format('woff2');
+font-weight: normal;
+font-style: normal;
+}
+
+.root {
+    font-size: 18px;
+}
+
+* {
+    image-rendering: pixelated;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scrollbar-color: #c7fec9;
+}
+
+.SketchBody {
+    font-family: 'CHNOPixel', sans-serif;
+    color: whitesmoke;
+}
+
+h1 {
+    font-size: 2.75rem;
+    line-height: 1;
+    color: white;
+}
+
+h2 {
+    font-size: 2.3rem;
+    line-height: 1;
+    text-transform: uppercase;
+    color: white;
+}
+
+h3{
+    font-size: 1.25rem;
+    line-height: 1;
+    color: white;
+}
+
+p {
+    font-family: 'Canarina', sans-serif;
+    font-size: 2rem;
+    line-height: 1;
+    color: white;
+}
+
+
+.SketchBody {
+    background: url(assets/Crib/bg3.png);
+    color: white;
+    padding-bottom: 50px;
+}
+
+.SketchesHeader .main-heading {
+    text-align: center;
+    padding: 15px;
+    padding-bottom: 3px;
+}
+
+.Sketchbook {
+    border: 5px solid #000000;
+    border-radius: 15px;
+    background-color: rgb(248, 248, 196);
+    padding: 0 5px;
+    width: 1050px;
+    max-width: 100%;
+    aspect-ratio: 2;
+    display: flex;
+}
+
+.PageLeft, .PageRight {
+    height: 100%;
+    width: 50%;
+    display: inline block;
+    position: relative;
+    border-radius: 10px;
+}
+
+.PageLeft {
+    border-left: 1px solid grey;
+}
+
+.PageRight {
+    border-right: 1px solid grey;
+}
+
+.Seam {
+    width: 7px;
+    background: linear-gradient(to right, white, grey, white);
+}
