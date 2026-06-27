@@ -1,0 +1,115 @@
+@font-face {                  
+font-family: 'CHNOPixel';
+src: url(./assets/Fonts/CHNOPixelCodePro-Regular.woff) format('woff');
+font-weight: normal;
+font-style: normal;
+}  
+
+@font-face {                  
+font-family: 'Canarina';
+src: url(./assets/Fonts/Canarina.woff2) format('woff2');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {                  
+font-family: 'Faune-Italic';
+src: url(./assets/Fonts/Faune-Italic.woff) format('woff');
+font-weight: normal;
+}
+
+@font-face {                  
+font-family: 'Glacier';
+src: url(./assets/Fonts/Glacier-Regular.woff) format('woff');
+font-weight: normal;
+font-style: normal;
+} 
+
+.root {
+    font-size: 18px;
+}
+
+* {
+    image-rendering: pixelated;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scrollbar-color: #c7fec9;
+}
+
+.PicsBody {
+    background: url(assets/Crib/bg3.png);
+    font-family: 'CHNOPixel', sans-serif;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 2.75rem;
+    line-height: 1;
+    color: white;
+}
+
+h2 {
+    font-size: 2.3rem;
+    line-height: 1;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Glacier', sans-serif;
+}
+
+h3{
+    font-size: 1.25rem;
+    line-height: 1;
+    color: white;
+}
+
+p {
+    font-family: 'Canarina', sans-serif;
+    font-size: 2rem;
+    line-height: 1;
+    color: white;
+}
+
+.main-heading {
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.Frame-Grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0px;
+    padding-top: 50px;
+    padding-left: 70px;
+    padding-right: 30px;
+    max-width: 1200px;
+}
+
+.wide {
+    grid-column: span 1;
+    width: 250px;
+}
+
+.long {
+    grid-row: span 2;
+    max-height: 300px;
+    width: 170px;
+}
+
+.Frame-Grid img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+button {
+    border: 5px solid;
+    border-image: url(assets/Crib/frame4full.png) 30 round;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}

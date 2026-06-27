@@ -12,6 +12,19 @@ font-weight: normal;
 font-style: normal;
 }
 
+@font-face {                  
+font-family: 'Faune-Italic';
+src: url(./assets/Fonts/Faune-Italic.woff) format('woff');
+font-weight: normal;
+}
+
+@font-face {                  
+font-family: 'Glacier';
+src: url(./assets/Fonts/Glacier-Regular.woff) format('woff');
+font-weight: normal;
+font-style: normal;
+} 
+
 .root {
     font-size: 18px;
 }
@@ -40,6 +53,7 @@ h2 {
     line-height: 1;
     text-transform: uppercase;
     color: white;
+    font-family: 'Glacier', sans-serif;
 }
 
 h3{

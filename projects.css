@@ -1,0 +1,112 @@
+@font-face {                  
+font-family: 'CHNOPixel';
+src: url(./assets/Fonts/CHNOPixelCodePro-Regular.woff) format('woff');
+font-weight: normal;
+font-style: normal;
+}  
+
+@font-face {                  
+font-family: 'Canarina';
+src: url(./assets/Fonts/Canarina.woff2) format('woff2');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {                  
+font-family: 'Faune-Italic';
+src: url(./assets/Fonts/Faune-Italic.woff) format('woff');
+font-weight: normal;
+}
+
+@font-face {                  
+font-family: 'Glacier';
+src: url(./assets/Fonts/Glacier-Regular.woff) format('woff');
+font-weight: normal;
+font-style: normal;
+} 
+
+.root {
+    font-size: 18px;
+}
+
+* {
+    image-rendering: pixelated;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scrollbar-color: #c7fec9;
+}
+
+h1 {
+    font-size: 2.75rem;
+    line-height: 1;
+    color: white;
+    font-family: 'CHNOPixel', sans-serif;
+}
+
+h2 {
+    font-size: 2.3rem;
+    line-height: 1;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'CHNOPixel', sans-serif;
+}
+
+h3{
+    font-size: 1.25rem;
+    line-height: 1;
+    color: white;
+}
+
+p {
+    font-family: 'Canarina', sans-serif;
+    font-size: 2rem;
+    line-height: 1;
+    color: white;
+}
+
+.ProjectsBody {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'CHNOPixel', sans-serif;
+    color: rgb(0, 0, 0);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.left-background {
+    background: url(assets/Crib/peak.jpg) no-repeat center center;
+    background-size: cover;
+    flex: 1;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+.main-infobox {
+    flex: 1.60;
+    padding: 50px;
+    min-width: 360px;
+    background-image: url(assets/Crib/Grass.JPG); 
+    border-left: 23px solid transparent;
+    border-image: url(assets/Crib/borderlily.png) 23 round; 
+    padding: 30px;
+}
+
+.Project-Name {
+    padding-top: 40px;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+
+.infobox h2 {
+    margin-bottom: 15px;
+}
+
+.Vagabond {
+    max-width: 600px;
+    border: 23px solid transparent;
+    border-image: url(assets/Crib/frame2.png) 23 round; 
+    margin: 30px;
+}
