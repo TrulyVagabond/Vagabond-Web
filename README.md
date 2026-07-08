@@ -34,3 +34,6 @@ Greatly Inspired by the [ribo.zone](http://ribo.zone) website. Really liked his 
 
 4: [TextureTown](https://textures.neocities.org/) for **Backgrounds and Textures**.
 
+
+*Note for Reviewer: AI was only used for research and understanding code. but all the code is written by me by hand.* 
+
